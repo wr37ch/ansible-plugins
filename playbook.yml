@@ -3,7 +3,7 @@
   tasks:
     - name: building an image
       create_box:
-        path: "/root/"
+        path: "./"
         dockerfile: "Dockerfile"
         name: "uhramovich/sample"
     - name: pushing an image
