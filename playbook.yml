@@ -5,7 +5,7 @@
       create_box:
         path: "./"
         dockerfile: "Dockerfile"
-        name: "uhramovich/sample"
+        name: "uhramovich/sample"  
     - name: pushing an image
       push_plugin:
-        repository: 'uhramovich/sample'
+        repository: 'uhramovich/sample' 
