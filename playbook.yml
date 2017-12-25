@@ -1,0 +1,11 @@
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: building an image
+      create_box:
+        path: "/root/"
+        dockerfile: "Dockerfile"
+        name: "uhramovich/sample"
+    - name: pushing an image
+      push_plugin:
+        repository: 'uhramovich/sample'
